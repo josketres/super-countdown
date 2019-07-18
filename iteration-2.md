@@ -13,7 +13,7 @@
 * Example of a render function:
 
 ```js
-function render(root, state) {
+const render = (root, state) => {
    const element = document.createElement('span');
    element.innerText = state.name;
    element.classList.add('person-name');
