@@ -12,7 +12,7 @@
 * Example of a render function:
 
 ```js
-const render = (root, state) => {
+const render = (state) => {
    const element = document.createElement('span');
    element.innerText = state.name;
    element.classList.add('person-name');
