@@ -21,8 +21,8 @@ const render = (state) => {
    document.body.appendChild(element); // render element 
 }
 
-// entry point
 const state = { name: 'Morty' };
+
 render(state);
 ```
 
