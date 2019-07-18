@@ -6,8 +6,7 @@
 ## The render() function
 * Gets a state as an input.
 * Creates all needed DOM elements to render the given state.
-* Gets a root element to render into.
-* Appends the parent element of the rendered elements to the root element.
+* Appends the parent element of the rendered elements to the `document.body`.
 
 ## Hints
 * Example of a render function:
@@ -18,14 +17,13 @@ const render = (root, state) => {
    element.innerText = state.name;
    element.classList.add('person-name');
    
-   root.innerHTML = ''; // clear root
-   root.appendChild(element); // render element 
+   document.body.innerHTML = ''; // clear body
+   document.body.appendChild(element); // render element 
 }
 
 // entry point
-const root = document.querySelector('#root')
-render(root, state);
-
+const state = { name: 'Morty' };
+render(state);
 ```
 
 * Use `document.createElement` to create a new HTMLElement.
