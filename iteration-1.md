@@ -5,7 +5,7 @@
 
 ## Constraints
 * No 3rd party libraries are allowed.
-* Do not use `window.setInterval`
 
 ## Hints
-* Use `window.setTimeout` to schedule a callback to be executed in . (See docs in MDN)
+* Use `window.setInterval` to schedule a callback to be executed every second. (See docs in MDN)
+
