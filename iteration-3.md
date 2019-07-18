@@ -1,7 +1,7 @@
 # Iteration 3
 
 * Based on previous iteration.
-* **Twist:** Use a custom `render()` function to update the UI instead of the previous method.
+* **Twist:** Use `window.setTimeout` instead of `window.setInterval`
 
 ## Constraints
 * Use of `window.setInterval` is not allowed
