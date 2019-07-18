@@ -6,7 +6,8 @@
 ## The render() function
 * Gets a state as an input.
 * Creates all needed DOM elements to render the given state.
-* Returns the parent element from the rendered elements.
+* Gets a root element to render into.
+* Appends the parent element of the rendered elements to the root element.
 
 ## Hints
 * Example of a render function:
