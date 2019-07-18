@@ -1,7 +1,7 @@
 # Iteration 4
 
 * Based on previous iteration.
-* **Twist:** Use a `Promise` and `window.setTimeout` to create a sleep() function.
+* **Twist:** Use a `Promise` and `window.setTimeout` to create a `sleep()` function.
 
 ## Hints
 * Read and understand the `ES6 Promise API`. 
