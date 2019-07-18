@@ -1,18 +1,11 @@
 # Iteration 1
 
 * Based on previous iteration.
-* Update the date every second (showing the current date).
-
-## Requirements
-* Background black.
-* Text white.
-* Responsive (should look fine in mobile and desktop devices).
+* Update the time every second (showing the current time).
 
 ## Constraints
 * No 3rd party libraries are allowed.
-* Use css only (no scss or sass allowed here).
+* Do not use `window.setInterval`
 
 ## Hints
-* Get the current date - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-* Use `document.querySelector` to find an HTML element. (See docs in MDN)
-* Use `Node.textContent` to replace the text of an HTML element. (See docs in MDN)
+* Use `window.setTimeout` to schedule a callback to be executed in . (See docs in MDN)
