@@ -6,8 +6,8 @@
 ## Hints
 * Read and understand the `ES6 Promise API`. 
 * Make some examples to understand how it works.
-* `Promise` constructor.
-* `Promise.then`
+* Use `Promise` constructor.
+* Use `Promise.then`
 * Once you've understood `Promise`, you can refactor your code using a `sleep()` function like this:
 ```js
 const sleep = (milliseconds) => new Promise((resolve, reject) => {
