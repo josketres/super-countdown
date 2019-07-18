@@ -15,7 +15,7 @@
 * Use css only (no scss or sass allowed here).
 
 ## Hints
-* Get the current date - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-* Use `document.querySelector` to find an HTML element. (See docs in MDN)
-* Use `Node.textContent` to replace the text of an HTML element. (See docs in MDN)
+* Use `Date` to get the current date and time.
+* Use `document.querySelector` to find an HTML element.
+* Use `Node.textContent` to replace the text of an HTML element.
 * Search documentation for the APIs mentioned here in [MDN](https://developer.mozilla.org/en-US/)
