@@ -15,4 +15,4 @@ A iteration based mini-project for beginner programmers to learn some frontend t
 
 ## Iterations
 * [Iteration 0](./iteration-0.md) - Hello Date()
-* [Iteration 1](./iteration-1.md) - Counting down!
+* [Iteration 1](./iteration-1.md) - Clock!
