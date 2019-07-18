@@ -18,3 +18,4 @@
 * Get the current date - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 * Use `document.querySelector` to find an HTML element. (See docs in MDN)
 * Use `Node.textContent` to replace the text of an HTML element. (See docs in MDN)
+* Search documentation for the APIs mentioned here in [MDN](https://developer.mozilla.org/en-US/)
