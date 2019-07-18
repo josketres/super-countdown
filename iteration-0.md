@@ -1,6 +1,6 @@
 # Iteration 0
 
-* Create a file `index.html` and a script `index.js`.
+* Create the following files: `index.html`, `index.js` and `index.css`.
 * When the page is loaded, it should show the current time in the format `hours:minutes:seconds`. (e.g. 12:21:09)
 
 ## UI
