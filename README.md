@@ -14,4 +14,5 @@ A iteration based mini-project for beginner programmers to learn some frontend t
 * After finishing an iteration, push the changes to the iteration branch and ask your mentor for a review.
 
 ## Iterations
-* [Iteration 1](./iteration-1.md)
+* [Iteration 0](./iteration-0.md) - Hello Date()
+* [Iteration 1](./iteration-1.md) - Counting down!
