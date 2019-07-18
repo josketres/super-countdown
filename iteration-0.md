@@ -1,7 +1,7 @@
 # Iteration 0
 
 * Create a file `index.html` and a script `index.js`.
-* When the page is loaded, it should show the current date.
+* When the page is loaded, it should show the current time in the format `hours:minutes:seconds`. (e.g. 12:21:09)
 
 ## Requirements
 * Background black.
