@@ -15,6 +15,8 @@ const sleep = (milliseconds) => new Promise((resolve, reject) => {
     resolve();
   }, milliseconds);
 });
+
 console.log('hello');
+
 sleep(3000).then(() => console.log(' world!'))
 ```
