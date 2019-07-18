@@ -18,4 +18,4 @@
 * Use `Date` to get the current date and time.
 * Use `document.querySelector` to find an HTML element.
 * Use `Node.textContent` to replace the text of an HTML element.
-* Search documentation for the APIs mentioned here in [MDN](https://developer.mozilla.org/en-US/)
+* **Important:** Search documentation for the APIs mentioned here in [MDN](https://developer.mozilla.org/en-US/)
