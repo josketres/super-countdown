@@ -7,6 +7,7 @@
 * Background black.
 * Text white.
 * Responsive (should look fine in mobile and desktop devices).
+* Use a nice font from google fonts.
 
 ## Constraints
 * No 3rd party libraries are allowed.
