@@ -1,3 +1,8 @@
+# Iteration 5
 
+* Based on previous iteration.
+* **Twist:** Use a `async/await` instead of `Promise.then`.
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+## Hints
+* Read and understand the `async/await` syntax.
+* Make some examples to understand how it works.
