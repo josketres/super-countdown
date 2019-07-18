@@ -15,7 +15,7 @@ A iteration based mini-project for beginner programmers to learn some frontend t
 
 ## Iterations
 * [Iteration 0](./iteration-0.md) - Hello Date()
-* [Iteration 1](./iteration-1.md) - Hello Clock!
+* [Iteration 1](./iteration-1.md) - Hello Clock! - setInterval()
 * [Iteration 2](./iteration-2.md) - Clock - render()
 * [Iteration 3](./iteration-3.md) - Clock - setTimeout() and recursion
 * [Iteration 4](./iteration-4.md) - Clock - Promise
