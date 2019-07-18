@@ -1,7 +1,8 @@
 # Iteration 0
 
 * Create the following files: `index.html`, `index.js` and `index.css`.
-* When the page is loaded, it should show the current time in the format `hours:minutes:seconds`. (e.g. 12:21:09)
+* When the page is loaded, it should show the current time centered in the page.
+* Use the following format for time `hours:minutes:seconds`. (e.g. 12:21:09)
 
 ## UI
 * Background black.
