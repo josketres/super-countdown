@@ -1,18 +1,24 @@
 
+function getDateFormatted() {
+    let date = new Date();
+    let hours = addZeroes(date.getHours());
+    let mins = addZeroes(date.getMinutes());
+    let secs = addZeroes(date.getSeconds());
+    return `${hours} : ${mins} : ${secs}`;
+}
+
 function addZeroes(value) {
     return (value < 10 ? '0' + value : value).toString();
 }
 
-const date = new Date();
-const hours = addZeroes(date.getHours());
-const mins = addZeroes(date.getMinutes());
+setInterval(function(){
+
+    const count = document.querySelector('#count');
+    count.textContent = getDateFormatted();
+
+},1000);
 
 
-const secs = addZeroes(date.getSeconds());
-
-
-const text = document.createTextNode(`${hours} : ${mins} : ${secs}`);
-document.querySelector('#count').appendChild(text);
 
 
 
