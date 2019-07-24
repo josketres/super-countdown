@@ -8,7 +8,7 @@ body, html {
     min-height: 100%;
 }
 
-.container{
+.count{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,8 +18,4 @@ body, html {
     height: 100vh;
     color: white;
     font-size: 50px;
-}
-
-.count {
-    margin: 0;
 }

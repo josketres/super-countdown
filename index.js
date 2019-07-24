@@ -11,15 +11,21 @@ function addZeroes(value) {
     return (value < 10 ? '0' + value : value).toString();
 }
 
-setInterval(function(){
+//render function:
 
-    const count = document.querySelector('#count');
-    count.textContent = getDateFormatted();
+const render = (state) => {
+    const container = document.createElement('div');
+    const span = document.createElement('span');
+    span.innerText = state;
+    span.classList.add('count');
 
-},1000);
+    document.body.innerHTML = ''; // clear body
+    document.body.appendChild(container); // render main element
+    container.appendChild(span); // render child element of div
+}
 
-
-
+const state = getDateFormatted();
+render(state);
 
 
 
