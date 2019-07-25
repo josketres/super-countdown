@@ -24,8 +24,11 @@ const render = (state) => {
     container.appendChild(span); // render child element of div
 }
 
-const state = getDateFormatted();
-render(state);
+function handler() {
+    let state = getDateFormatted();
+    render(state);
+}
+handler()
 
-
+setInterval(handler, 1000);
 
