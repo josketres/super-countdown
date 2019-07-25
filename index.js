@@ -28,7 +28,29 @@ function handler() {
     let state = getDateFormatted();
     render(state);
 }
-handler()
+handler();
 
-setInterval(handler, 1000);
+
+setTimeout(function getCount() {
+    handler();
+    setTimeout(getCount, 1000);
+}, 1000);
+
+
+
+//example (to remind):
+/*number = 10;
+function count() {
+    if(number <= 0){  //terminate condition
+        return 0;
+    }
+    number--;
+    console.log(number);
+}
+
+setTimeout(function rec() {
+    count();
+    setTimeout(rec, 1000); // the function rec calls itself every single 5 sec.
+}, 5000);  // call the function at the first time after 5 sec.*!/*/
+
 
