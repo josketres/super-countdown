@@ -11,14 +11,11 @@ function addZeroes(value) {
     return (value < 10 ? '0' + value : value).toString();
 }
 
-//render function:
-
-const render = (state) => {
+function render(state) {
     const container = document.createElement('div');
     const span = document.createElement('span');
     span.innerText = state;
     span.classList.add('count');
-
     document.body.innerHTML = ''; // clear body
     document.body.appendChild(container); // render main element
     container.appendChild(span); // render child element of div
@@ -28,14 +25,13 @@ function handler() {
     let state = getDateFormatted();
     render(state);
 }
-handler();
 
-
-setTimeout(function getCount() {
+function update() {
     handler();
-    setTimeout(getCount, 1000);
-}, 1000);
+    setTimeout(update, 1000);
+}
 
+update();
 
 
 //example (to remind):
