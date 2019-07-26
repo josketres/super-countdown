@@ -26,27 +26,31 @@ function handler() {
     render(state);
 }
 
+//first case with SetTimeout
+
+let seconds = 0;
+
 function update() {
+    if(seconds >= 60) {
+        return;
+    }
+    seconds++;
     handler();
     setTimeout(update, 1000);
 }
 
 update();
 
+//Second case with SetInterval
 
-//example (to remind):
-/*number = 10;
-function count() {
-    if(number <= 0){  //terminate condition
-        return 0;
+/*let timerId = setInterval(() => {
+    handler();
+    seconds ++;
+    if (seconds >=60) {
+        clearInterval(timerId);
     }
-    number--;
-    console.log(number);
-}
+}, 1000);*/
 
-setTimeout(function rec() {
-    count();
-    setTimeout(rec, 1000); // the function rec calls itself every single 5 sec.
-}, 5000);  // call the function at the first time after 5 sec.*!/*/
+
 
 
