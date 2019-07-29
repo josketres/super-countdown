@@ -38,17 +38,19 @@ function handler() {
 
 update();*/
 
-let seconds = 0;
+let timerId;
 
-setTimeout(function getTimer() {
+setTimeout(function getCount() {
     handler();
-    let timerId = setTimeout(getTimer, 1000);
-    seconds++;
-    if (seconds >=60) {
-        clearTimeout(timerId);
-    }
+    timerId = setTimeout(getCount, 1000);
 }, 1000);
 
+setTimeout(function stopTimer(){
+    clearTimeout(timerId);
+}, 60000);
+
+
+    
 
 
 
