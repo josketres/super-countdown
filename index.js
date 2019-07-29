@@ -27,11 +27,8 @@ function handler() {
 }
 
 //first case with SetTimeout
-
-let seconds = 0;
-
-function update() {
-    if(seconds >= 60) {
+/*function update() {
+    if(seconds >= 5) {
         return;
     }
     seconds++;
@@ -39,17 +36,18 @@ function update() {
     setTimeout(update, 1000);
 }
 
-update();
+update();*/
 
-//Second case with SetInterval
+let seconds = 0;
 
-/*let timerId = setInterval(() => {
+setTimeout(function getTimer() {
     handler();
-    seconds ++;
+    let timerId = setTimeout(getTimer, 1000);
+    seconds++;
     if (seconds >=60) {
-        clearInterval(timerId);
+        clearTimeout(timerId);
     }
-}, 1000);*/
+}, 1000);
 
 
 
