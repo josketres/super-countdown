@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# Don't need check-in compiled code
+dist/
+
+# Don't need check-in IDE configuration
+.idea/
+
+# Don't need to cache data
+.cache/
