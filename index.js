@@ -26,29 +26,12 @@ function handler() {
     render(state);
 }
 
-//first case with SetTimeout
-/*function update() {
-    if(seconds >= 5) {
-        return;
-    }
-    seconds++;
-    handler();
-    setTimeout(update, 1000);
-}
-
-update();*/
-
-let seconds = 0;
-
-setTimeout(function getTimer() {
-    handler();
-    let timerId = setTimeout(getTimer, 1000);
-    seconds++;
-    if (seconds >=60) {
-        clearTimeout(timerId);
-    }
-}, 1000);
-
-
-
-
+const sleep = (milliseconds) => new Promise((resolve, reject) => {
+    setInterval(() => {
+      resolve()
+    }, milliseconds);
+  });
+  
+  handler();
+   
+  sleep(1000).then(() => handler());
