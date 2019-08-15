@@ -26,12 +26,23 @@ function handler() {
     render(state);
 }
 
+
 const sleep = (milliseconds) => new Promise((resolve, reject) => {
-    setInterval(() => {
+    setTimeout(() => {
       resolve()
     }, milliseconds);
   });
+
+    function tik() {
+    handler();
+    sleep(1000).then(() => tik());
+} 
+
+tik();
+
+
+
+
+
+
   
-  handler();
-   
-  sleep(1000).then(() => handler());

@@ -19,3 +19,8 @@ body, html {
     color: white;
     font-size: 50px;
 }
+
+.wrap {
+    color: white;
+    display: block;
+}
