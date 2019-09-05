@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
-body, html {
+body, html, .container {
     margin: 0;
     padding: 0;
     background-color: black;
     font-family: 'Anton', sans-serif;
     min-height: 100%;
+    color: white;
 }
 
 .count{
